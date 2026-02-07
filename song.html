@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Song</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+  margin:0;
+  background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+  font-family:'Great Vibes', cursive;
+  text-align:center;
+  color:#800020;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:rgba(255,255,255,0.3);
+  backdrop-filter:blur(10px);
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+}
+
+nav a{
+  text-decoration:none;
+  color:#800020;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+  color:#ff4da6;
+}
+
+/* CENTER */
+.center{
+  margin-top:60px;
+  padding:20px;
+}
+
+/* TEXT BOX */
+.songMessage{
+  max-width:700px;
+  margin:40px auto;
+  background:#ffe0e0;
+  color:#800020;
+  padding:25px;
+  border-radius:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  line-height:1.7;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  text-align:left;
+}
+
+/* VIDEO BOX */
+.videoBox{
+  max-width:750px;
+  margin:20px auto;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+}
+
+video{
+  width:100%;
+  border-radius:20px;
+}
+
+/* FADE */
+.fade{
+  animation:fadein 1.5s;
+}
+
+@keyframes fadein{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+</style>
+</head>
+
+<body class="fade">
+
+<nav>
+<h2>❤️ For Jessa</h2>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="message.html">Message</a></li>
+<li><a href="reasons.html">Reasons</a></li>
+<li><a href="song.html">Our Song</a></li>
+</ul>
+</nav>
+
+
+<section class="center">
+  
+<h1>🎵 Our Theme Song 🎵</h1>
+
+<div class="videoBox">
+<video controls autoplay loop>
+  <source src="aboutyou.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="songMessage">
+<p>
+<strong>Our Theme Song — “About You” by The 1975</strong><br><br>
+
+This song will always remind me of you and everything we share. Every time it plays, 
+it feels like I’m thinking of you all over again — your voice, your smile, and all 
+the little moments that make you so special to me. “About You” isn’t just a song for us, 
+it’s a feeling, a memory, and a reminder of how deeply you live in my heart.  
+
+No matter where we are or how far apart we may be, this song brings me closer to you. 
+Whenever you listen to it, I hope you feel my love wrapped around you, like I’m right 
+there beside you. Because in every lyric and every melody, it will always be about you… 
+and my love for you.
+</p>
+</div>
+
+
+</section>
+
+</body>
+</html>
